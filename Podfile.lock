@@ -1,0 +1,19 @@
+PODS:
+  - Blindside (1.0-alpha)
+  - Cedar (0.9.6)
+
+DEPENDENCIES:
+  - Blindside (from `https://github.com/jbsf/blindside.git`)
+  - Cedar (from `https://github.com/pivotal/Cedar.git`)
+
+EXTERNAL SOURCES:
+  Blindside:
+    :git: https://github.com/jbsf/blindside.git
+  Cedar:
+    :git: https://github.com/pivotal/Cedar.git
+
+SPEC CHECKSUMS:
+  Blindside: 3aae47c0138e6f1cf29cb4ed742bcee3744fdd2a
+  Cedar: 0a470fd062666218c3ac1a38503584d1e9a68b88
+
+COCOAPODS: 0.29.0
