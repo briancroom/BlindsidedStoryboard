@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34B3337519267BA1009466A5 /* BlindsidedStoryboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B3337419267BA1009466A5 /* BlindsidedStoryboard.m */; };
 		34C17B7A18FF759000FBB76E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34C17B7918FF759000FBB76E /* Foundation.framework */; };
 		34C17B7C18FF759000FBB76E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34C17B7B18FF759000FBB76E /* CoreGraphics.framework */; };
 		34C17B7E18FF759000FBB76E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34C17B7D18FF759000FBB76E /* UIKit.framework */; };
@@ -20,7 +21,6 @@
 		34C17BB418FF7D9800FBB76E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34C17B7D18FF759000FBB76E /* UIKit.framework */; };
 		34C17BB518FF7D9800FBB76E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34C17B7918FF759000FBB76E /* Foundation.framework */; };
 		34C17BBB18FF7D9800FBB76E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 34C17BB918FF7D9800FBB76E /* InfoPlist.strings */; };
-		34C17BC718FF7EA900FBB76E /* BlindsidedStoryboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C17BC618FF7EA900FBB76E /* BlindsidedStoryboard.m */; };
 		34C17BC918FF80D300FBB76E /* AppDelegateSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 34C17BC818FF80D300FBB76E /* AppDelegateSpec.mm */; };
 		34C17BCC18FF813100FBB76E /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C17BCB18FF813100FBB76E /* FirstViewController.m */; };
 		34C17BCF18FF818300FBB76E /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C17BCE18FF818300FBB76E /* SecondViewController.m */; };
@@ -30,6 +30,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		34B3337319267BA1009466A5 /* BlindsidedStoryboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlindsidedStoryboard.h; sourceTree = "<group>"; };
+		34B3337419267BA1009466A5 /* BlindsidedStoryboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlindsidedStoryboard.m; sourceTree = "<group>"; };
 		34C17B7618FF759000FBB76E /* BlindsidedStoryboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlindsidedStoryboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34C17B7918FF759000FBB76E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		34C17B7B18FF759000FBB76E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -49,8 +51,6 @@
 		34C17BBA18FF7D9800FBB76E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		34C17BBE18FF7D9800FBB76E /* Rakefile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Rakefile; sourceTree = "<group>"; };
 		34C17BC118FF7D9800FBB76E /* Specs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Specs-Prefix.pch"; sourceTree = "<group>"; };
-		34C17BC518FF7EA900FBB76E /* BlindsidedStoryboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlindsidedStoryboard.h; sourceTree = "<group>"; };
-		34C17BC618FF7EA900FBB76E /* BlindsidedStoryboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlindsidedStoryboard.m; sourceTree = "<group>"; };
 		34C17BC818FF80D300FBB76E /* AppDelegateSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegateSpec.mm; sourceTree = "<group>"; };
 		34C17BCA18FF813100FBB76E /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		34C17BCB18FF813100FBB76E /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
@@ -91,6 +91,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34B3337219267B93009466A5 /* BlindsidedStoryboard */ = {
+			isa = PBXGroup;
+			children = (
+				34B3337319267BA1009466A5 /* BlindsidedStoryboard.h */,
+				34B3337419267BA1009466A5 /* BlindsidedStoryboard.m */,
+			);
+			path = BlindsidedStoryboard;
+			sourceTree = "<group>";
+		};
 		34C17B6D18FF759000FBB76E = {
 			isa = PBXGroup;
 			children = (
@@ -129,8 +138,7 @@
 		34C17B7F18FF759000FBB76E /* BlindsidedStoryboard */ = {
 			isa = PBXGroup;
 			children = (
-				34C17BC518FF7EA900FBB76E /* BlindsidedStoryboard.h */,
-				34C17BC618FF7EA900FBB76E /* BlindsidedStoryboard.m */,
+				34B3337219267B93009466A5 /* BlindsidedStoryboard */,
 				34C17BCA18FF813100FBB76E /* FirstViewController.h */,
 				34C17BCB18FF813100FBB76E /* FirstViewController.m */,
 				34C17BCD18FF818300FBB76E /* SecondViewController.h */,
@@ -348,10 +356,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				34C17BCF18FF818300FBB76E /* SecondViewController.m in Sources */,
-				34C17BC718FF7EA900FBB76E /* BlindsidedStoryboard.m in Sources */,
 				34C17B8A18FF759000FBB76E /* AppDelegate.m in Sources */,
 				34C17B8618FF759000FBB76E /* main.m in Sources */,
 				34C17BD218FF88CE00FBB76E /* EmbeddedViewController.m in Sources */,
+				34B3337519267BA1009466A5 /* BlindsidedStoryboard.m in Sources */,
 				34C17BCC18FF813100FBB76E /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
