@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		34B3337519267BA1009466A5 /* BlindsidedStoryboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B3337419267BA1009466A5 /* BlindsidedStoryboard.m */; };
+		34B3337B19267CD4009466A5 /* BlindsidedStoryboard+CrossStoryboardSegues.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B3337A19267CD4009466A5 /* BlindsidedStoryboard+CrossStoryboardSegues.m */; };
 		34C17B7A18FF759000FBB76E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34C17B7918FF759000FBB76E /* Foundation.framework */; };
 		34C17B7C18FF759000FBB76E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34C17B7B18FF759000FBB76E /* CoreGraphics.framework */; };
 		34C17B7E18FF759000FBB76E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34C17B7D18FF759000FBB76E /* UIKit.framework */; };
@@ -32,6 +33,8 @@
 /* Begin PBXFileReference section */
 		34B3337319267BA1009466A5 /* BlindsidedStoryboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlindsidedStoryboard.h; sourceTree = "<group>"; };
 		34B3337419267BA1009466A5 /* BlindsidedStoryboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlindsidedStoryboard.m; sourceTree = "<group>"; };
+		34B3337919267CD4009466A5 /* BlindsidedStoryboard+CrossStoryboardSegues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BlindsidedStoryboard+CrossStoryboardSegues.h"; sourceTree = "<group>"; };
+		34B3337A19267CD4009466A5 /* BlindsidedStoryboard+CrossStoryboardSegues.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BlindsidedStoryboard+CrossStoryboardSegues.m"; sourceTree = "<group>"; };
 		34C17B7618FF759000FBB76E /* BlindsidedStoryboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlindsidedStoryboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34C17B7918FF759000FBB76E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		34C17B7B18FF759000FBB76E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -94,6 +97,8 @@
 		34B3337219267B93009466A5 /* BlindsidedStoryboard */ = {
 			isa = PBXGroup;
 			children = (
+				34B3337919267CD4009466A5 /* BlindsidedStoryboard+CrossStoryboardSegues.h */,
+				34B3337A19267CD4009466A5 /* BlindsidedStoryboard+CrossStoryboardSegues.m */,
 				34B3337319267BA1009466A5 /* BlindsidedStoryboard.h */,
 				34B3337419267BA1009466A5 /* BlindsidedStoryboard.m */,
 			);
@@ -357,6 +362,7 @@
 			files = (
 				34C17BCF18FF818300FBB76E /* SecondViewController.m in Sources */,
 				34C17B8A18FF759000FBB76E /* AppDelegate.m in Sources */,
+				34B3337B19267CD4009466A5 /* BlindsidedStoryboard+CrossStoryboardSegues.m in Sources */,
 				34C17B8618FF759000FBB76E /* main.m in Sources */,
 				34C17BD218FF88CE00FBB76E /* EmbeddedViewController.m in Sources */,
 				34B3337519267BA1009466A5 /* BlindsidedStoryboard.m in Sources */,
