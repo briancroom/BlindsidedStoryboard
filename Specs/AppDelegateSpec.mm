@@ -28,6 +28,7 @@ SPEC_BEGIN(AppDelegateSpec)
 describe(@"AppDelegate", ^{
     __block AppDelegate *appDelegate;
     __block id<BSInjector> injector;
+    __block UITabBarController *tabController;
     __block UINavigationController *navController;
     NSString *firstTitle = @"firstTitle";
     NSString *secondTitle = @"secondTitle";
@@ -43,9 +44,14 @@ describe(@"AppDelegate", ^{
         appDelegate = [[AppDelegate alloc] init];
         appDelegate.injector = injector;
         [appDelegate application:nil didFinishLaunchingWithOptions:nil];
-        navController = (UINavigationController *)appDelegate.window.rootViewController;
+
+        tabController = (UITabBarController *)appDelegate.window.rootViewController;
+        tabController should be_instance_of([UITabBarController class]);
+
+        navController = [[tabController viewControllers] firstObject];
         navController should be_instance_of([UINavigationController class]);
-        [navController.view layoutIfNeeded];
+
+        [tabController.view layoutIfNeeded];
     });
 
     it(@"should put FirstViewController on screen", ^{

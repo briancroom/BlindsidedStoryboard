@@ -10,13 +10,16 @@
 
 - (id)instantiateViewControllerWithIdentifier:(NSString *)identifier {
     id controller = [super instantiateViewControllerWithIdentifier:identifier];
-
-    [self.injector injectProperties:controller];
-    for (id childController in [controller childViewControllers]) {
-        [self.injector injectProperties:childController];
-    }
+    [self injectViewController:controller];
 
     return controller;
+}
+
+- (void)injectViewController:(UIViewController *)controller {
+    [self.injector injectProperties:controller];
+    for (id childController in [controller childViewControllers]) {
+        [self injectViewController:childController];
+    }
 }
 
 @end
