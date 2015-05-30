@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'BlindsidedStoryboard_Example', :exclusive => true do
+  pod "BlindsidedStoryboard", :path => "../"
+end
+
+target 'BlindsidedStoryboard_Tests', :exclusive => true do
+  pod "BlindsidedStoryboard", :path => "../"
+  pod 'Cedar'
+end

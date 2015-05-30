@@ -1,11 +1,3 @@
-//
-//  main.m
-//  BlindsidedStoryboard
-//
-//  Created by DEVFLOATER106-XL on 2014-04-16.
-//
-//
-
 #import <UIKit/UIKit.h>
 
 #import "AppDelegate.h"

@@ -1,4 +1,5 @@
 #import "EmbeddedViewController.h"
+#import <Blindside/Blindside.h>
 
 @interface EmbeddedViewController ()
 @property (nonatomic, strong) id<BSInjector> injector;

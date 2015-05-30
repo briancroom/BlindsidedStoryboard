@@ -1,4 +1,5 @@
 #import "SecondViewController.h"
+#import <Blindside/Blindside.h>
 
 @interface SecondViewController ()
 @property (nonatomic, strong) id<BSInjector> injector;

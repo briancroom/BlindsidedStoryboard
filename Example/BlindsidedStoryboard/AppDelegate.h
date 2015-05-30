@@ -1,4 +1,5 @@
 #import <UIKit/UIKit.h>
+#import <Blindside/Blindside.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
