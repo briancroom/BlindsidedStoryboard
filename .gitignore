@@ -25,4 +25,4 @@ DerivedData
 Pods/
 
 # Carthage
-Example/Carthage/Checkouts
+Carthage/Checkouts

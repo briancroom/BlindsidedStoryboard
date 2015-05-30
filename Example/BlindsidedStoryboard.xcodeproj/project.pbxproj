@@ -60,7 +60,7 @@
 		34B985BB1B1A4E3E00DE719D /* BlindsidedStoryboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BlindsidedStoryboard.m; path = ../../Pod/Classes/BlindsidedStoryboard.m; sourceTree = "<group>"; };
 		34B985BC1B1A4E3E00DE719D /* BlindsidedStoryboard+CrossStoryboardSegues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "BlindsidedStoryboard+CrossStoryboardSegues.h"; path = "../../Pod/Classes/BlindsidedStoryboard+CrossStoryboardSegues.h"; sourceTree = "<group>"; };
 		34B985BD1B1A4E3E00DE719D /* BlindsidedStoryboard+CrossStoryboardSegues.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "BlindsidedStoryboard+CrossStoryboardSegues.m"; path = "../../Pod/Classes/BlindsidedStoryboard+CrossStoryboardSegues.m"; sourceTree = "<group>"; };
-		34B985C21B1A51F200DE719D /* Blindside.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Blindside.framework; path = Carthage/Build/iOS/Blindside.framework; sourceTree = "<group>"; };
+		34B985C21B1A51F200DE719D /* Blindside.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Blindside.framework; path = ../Carthage/Build/iOS/Blindside.framework; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* BlindsidedStoryboard_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlindsidedStoryboard_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -552,7 +552,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/../Carthage/Build/iOS",
 				);
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -585,7 +585,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/../Carthage/Build/iOS",
 				);
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = BlindsidedStoryboard/Info.plist;
