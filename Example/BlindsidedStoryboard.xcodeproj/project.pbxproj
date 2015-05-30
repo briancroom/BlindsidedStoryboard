@@ -13,6 +13,11 @@
 		34B985641B1A28E700DE719D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34B9855E1B1A28E700DE719D /* Main.storyboard */; };
 		34B985651B1A28E700DE719D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B985601B1A28E700DE719D /* SecondViewController.m */; };
 		34B985681B1A2ACB00DE719D /* AppDelegateSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 34B985661B1A2AC700DE719D /* AppDelegateSpec.mm */; };
+		34B985BE1B1A4E3E00DE719D /* BlindsidedStoryboard.h in Headers */ = {isa = PBXBuildFile; fileRef = 34B985BA1B1A4E3E00DE719D /* BlindsidedStoryboard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34B985BF1B1A4E3E00DE719D /* BlindsidedStoryboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B985BB1B1A4E3E00DE719D /* BlindsidedStoryboard.m */; };
+		34B985C01B1A4E3E00DE719D /* BlindsidedStoryboard+CrossStoryboardSegues.h in Headers */ = {isa = PBXBuildFile; fileRef = 34B985BC1B1A4E3E00DE719D /* BlindsidedStoryboard+CrossStoryboardSegues.h */; };
+		34B985C11B1A4E3E00DE719D /* BlindsidedStoryboard+CrossStoryboardSegues.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B985BD1B1A4E3E00DE719D /* BlindsidedStoryboard+CrossStoryboardSegues.m */; };
+		34B985C31B1A51F200DE719D /* Blindside.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34B985C21B1A51F200DE719D /* Blindside.framework */; };
 		5A47940E5F8F04038DCB96FB /* Pods_BlindsidedStoryboard_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DD3D7410007C61A8AA2423B /* Pods_BlindsidedStoryboard_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -49,6 +54,13 @@
 		34B9855F1B1A28E700DE719D /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		34B985601B1A28E700DE719D /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		34B985661B1A2AC700DE719D /* AppDelegateSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegateSpec.mm; sourceTree = "<group>"; };
+		34B985A11B1A4D4500DE719D /* BlindsidedStoryboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BlindsidedStoryboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34B985A41B1A4D4500DE719D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34B985BA1B1A4E3E00DE719D /* BlindsidedStoryboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BlindsidedStoryboard.h; path = ../../Pod/Classes/BlindsidedStoryboard.h; sourceTree = "<group>"; };
+		34B985BB1B1A4E3E00DE719D /* BlindsidedStoryboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BlindsidedStoryboard.m; path = ../../Pod/Classes/BlindsidedStoryboard.m; sourceTree = "<group>"; };
+		34B985BC1B1A4E3E00DE719D /* BlindsidedStoryboard+CrossStoryboardSegues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "BlindsidedStoryboard+CrossStoryboardSegues.h"; path = "../../Pod/Classes/BlindsidedStoryboard+CrossStoryboardSegues.h"; sourceTree = "<group>"; };
+		34B985BD1B1A4E3E00DE719D /* BlindsidedStoryboard+CrossStoryboardSegues.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "BlindsidedStoryboard+CrossStoryboardSegues.m"; path = "../../Pod/Classes/BlindsidedStoryboard+CrossStoryboardSegues.m"; sourceTree = "<group>"; };
+		34B985C21B1A51F200DE719D /* Blindside.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Blindside.framework; path = Carthage/Build/iOS/Blindside.framework; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* BlindsidedStoryboard_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlindsidedStoryboard_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -74,6 +86,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		34B9859D1B1A4D4500DE719D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34B985C31B1A51F200DE719D /* Blindside.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F587195388D20070C39A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -99,10 +119,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34B985A21B1A4D4500DE719D /* BlindsidedStoryboard */ = {
+			isa = PBXGroup;
+			children = (
+				34B985BA1B1A4E3E00DE719D /* BlindsidedStoryboard.h */,
+				34B985BB1B1A4E3E00DE719D /* BlindsidedStoryboard.m */,
+				34B985BC1B1A4E3E00DE719D /* BlindsidedStoryboard+CrossStoryboardSegues.h */,
+				34B985BD1B1A4E3E00DE719D /* BlindsidedStoryboard+CrossStoryboardSegues.m */,
+				34B985A31B1A4D4500DE719D /* Supporting Files */,
+			);
+			path = BlindsidedStoryboard;
+			sourceTree = "<group>";
+		};
+		34B985A31B1A4D4500DE719D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34B985A41B1A4D4500DE719D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
+				34B985A21B1A4D4500DE719D /* BlindsidedStoryboard */,
 				6003F593195388D20070C39A /* Example for BlindsidedStoryboard */,
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
@@ -116,6 +157,7 @@
 			children = (
 				6003F58A195388D20070C39A /* BlindsidedStoryboard_Example.app */,
 				6003F5AE195388D20070C39A /* BlindsidedStoryboard_Tests.xctest */,
+				34B985A11B1A4D4500DE719D /* BlindsidedStoryboard.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,6 +165,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				34B985C21B1A51F200DE719D /* Blindside.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -205,7 +248,37 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		34B9859E1B1A4D4500DE719D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34B985BE1B1A4E3E00DE719D /* BlindsidedStoryboard.h in Headers */,
+				34B985C01B1A4E3E00DE719D /* BlindsidedStoryboard+CrossStoryboardSegues.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		34B985A01B1A4D4500DE719D /* BlindsidedStoryboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34B985B81B1A4D4500DE719D /* Build configuration list for PBXNativeTarget "BlindsidedStoryboard" */;
+			buildPhases = (
+				34B9859C1B1A4D4500DE719D /* Sources */,
+				34B9859D1B1A4D4500DE719D /* Frameworks */,
+				34B9859E1B1A4D4500DE719D /* Headers */,
+				34B9859F1B1A4D4500DE719D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlindsidedStoryboard;
+			productName = BlindsidedStoryboard;
+			productReference = 34B985A11B1A4D4500DE719D /* BlindsidedStoryboard.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		6003F589195388D20070C39A /* BlindsidedStoryboard_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "BlindsidedStoryboard_Example" */;
@@ -257,6 +330,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Brian Croom";
 				TargetAttributes = {
+					34B985A01B1A4D4500DE719D = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -277,11 +353,19 @@
 			targets = (
 				6003F589195388D20070C39A /* BlindsidedStoryboard_Example */,
 				6003F5AD195388D20070C39A /* BlindsidedStoryboard_Tests */,
+				34B985A01B1A4D4500DE719D /* BlindsidedStoryboard */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		34B9859F1B1A4D4500DE719D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F588195388D20070C39A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -396,6 +480,15 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		34B9859C1B1A4D4500DE719D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34B985C11B1A4E3E00DE719D /* BlindsidedStoryboard+CrossStoryboardSegues.m in Sources */,
+				34B985BF1B1A4E3E00DE719D /* BlindsidedStoryboard.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F586195388D20070C39A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -446,6 +539,67 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		34B985B41B1A4D4500DE719D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BlindsidedStoryboard/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		34B985B51B1A4D4500DE719D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = BlindsidedStoryboard/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		6003F5BD195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -593,6 +747,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		34B985B81B1A4D4500DE719D /* Build configuration list for PBXNativeTarget "BlindsidedStoryboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34B985B41B1A4D4500DE719D /* Debug */,
+				34B985B51B1A4D4500DE719D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		6003F585195388D10070C39A /* Build configuration list for PBXProject "BlindsidedStoryboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
