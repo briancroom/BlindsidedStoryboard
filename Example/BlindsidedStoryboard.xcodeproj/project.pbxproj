@@ -15,7 +15,7 @@
 		34B985681B1A2ACB00DE719D /* AppDelegateSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 34B985661B1A2AC700DE719D /* AppDelegateSpec.mm */; };
 		34B985BE1B1A4E3E00DE719D /* BlindsidedStoryboard.h in Headers */ = {isa = PBXBuildFile; fileRef = 34B985BA1B1A4E3E00DE719D /* BlindsidedStoryboard.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		34B985BF1B1A4E3E00DE719D /* BlindsidedStoryboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B985BB1B1A4E3E00DE719D /* BlindsidedStoryboard.m */; };
-		34B985C01B1A4E3E00DE719D /* BlindsidedStoryboard+CrossStoryboardSegues.h in Headers */ = {isa = PBXBuildFile; fileRef = 34B985BC1B1A4E3E00DE719D /* BlindsidedStoryboard+CrossStoryboardSegues.h */; };
+		34B985C01B1A4E3E00DE719D /* BlindsidedStoryboard+CrossStoryboardSegues.h in Headers */ = {isa = PBXBuildFile; fileRef = 34B985BC1B1A4E3E00DE719D /* BlindsidedStoryboard+CrossStoryboardSegues.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		34B985C11B1A4E3E00DE719D /* BlindsidedStoryboard+CrossStoryboardSegues.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B985BD1B1A4E3E00DE719D /* BlindsidedStoryboard+CrossStoryboardSegues.m */; };
 		34B985C31B1A51F200DE719D /* Blindside.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34B985C21B1A51F200DE719D /* Blindside.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -722,6 +722,7 @@
 				34B985B51B1A4D4500DE719D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6003F585195388D10070C39A /* Build configuration list for PBXProject "BlindsidedStoryboard" */ = {
 			isa = XCConfigurationList;
