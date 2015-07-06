@@ -16,10 +16,11 @@ Pod::Spec.new do |s|
 
                             This pod provides a BlindsidedStoryboard subclass of UIStoryboard which exemplifies this technique, integrating with the Blindside DI framework. It also contains a small sample app demonstrating how this could be used.
                        DESC
-  s.homepage         = "https://github.com/pivotal-brian-croom/BlindsidedStoryboard"
+  s.homepage         = "https://github.com/briancroom/BlindsidedStoryboard"
   s.license          = 'MIT'
   s.author           = { "Brian Croom" => "brian.s.croom@gmail.com" }
-  s.source           = { :git => "https://github.com/pivotal-brian-croom/BlindsidedStoryboard.git", :tag => "v0.1.0" }
+  s.social_media_url = 'https://twitter.com/aikoniv'
+  s.source           = { :git => "https://github.com/briancroom/BlindsidedStoryboard.git", :tag => "v0.1.0" }
 
   s.platform     = :ios, '5.0'
   s.requires_arc = true
