@@ -18,7 +18,6 @@
 		34B985C01B1A4E3E00DE719D /* BlindsidedStoryboard+CrossStoryboardSegues.h in Headers */ = {isa = PBXBuildFile; fileRef = 34B985BC1B1A4E3E00DE719D /* BlindsidedStoryboard+CrossStoryboardSegues.h */; };
 		34B985C11B1A4E3E00DE719D /* BlindsidedStoryboard+CrossStoryboardSegues.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B985BD1B1A4E3E00DE719D /* BlindsidedStoryboard+CrossStoryboardSegues.m */; };
 		34B985C31B1A51F200DE719D /* Blindside.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34B985C21B1A51F200DE719D /* Blindside.framework */; };
-		5A47940E5F8F04038DCB96FB /* Pods_BlindsidedStoryboard_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DD3D7410007C61A8AA2423B /* Pods_BlindsidedStoryboard_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -29,7 +28,8 @@
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
-		6B4F1C61F3A5943785AFF141 /* Pods_BlindsidedStoryboard_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FA846413CC39B8EC38A83FB /* Pods_BlindsidedStoryboard_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		C46674D95CB4529C54C97A8F /* libPods-BlindsidedStoryboard_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBA813235D49ED5E35099B8 /* libPods-BlindsidedStoryboard_Example.a */; };
+		ED98A1F04F5C41A728090184 /* libPods-BlindsidedStoryboard_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73F5B8E55F08F2A5234A2DC5 /* libPods-BlindsidedStoryboard_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +43,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0FA846413CC39B8EC38A83FB /* Pods_BlindsidedStoryboard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlindsidedStoryboard_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		34B985581B1A28E700DE719D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		34B985591B1A28E700DE719D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		34B9855A1B1A28E700DE719D /* EmbeddedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmbeddedViewController.h; sourceTree = "<group>"; };
@@ -77,10 +76,11 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		60E2E35AF3D0D5C7F093716B /* Pods-BlindsidedStoryboard_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlindsidedStoryboard_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlindsidedStoryboard_Tests/Pods-BlindsidedStoryboard_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6EBC1887D5F27AE511F0D7DC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		73F5B8E55F08F2A5234A2DC5 /* libPods-BlindsidedStoryboard_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BlindsidedStoryboard_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80E7DCD333C03A3E80C9B006 /* Pods-BlindsidedStoryboard_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlindsidedStoryboard_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlindsidedStoryboard_Example/Pods-BlindsidedStoryboard_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9DD3D7410007C61A8AA2423B /* Pods_BlindsidedStoryboard_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlindsidedStoryboard_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EB37B68692D9B26442BE26F /* Pods-BlindsidedStoryboard_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlindsidedStoryboard_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlindsidedStoryboard_Example/Pods-BlindsidedStoryboard_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		AB40B58A2937BC2AE55832D3 /* BlindsidedStoryboard.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BlindsidedStoryboard.podspec; path = ../BlindsidedStoryboard.podspec; sourceTree = "<group>"; };
+		CDBA813235D49ED5E35099B8 /* libPods-BlindsidedStoryboard_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BlindsidedStoryboard_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1593E414B2081F283C8F319 /* Pods-BlindsidedStoryboard_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlindsidedStoryboard_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlindsidedStoryboard_Tests/Pods-BlindsidedStoryboard_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EA9DFD8479796986C31D0F79 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,7 +101,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				6B4F1C61F3A5943785AFF141 /* Pods_BlindsidedStoryboard_Example.framework in Frameworks */,
+				C46674D95CB4529C54C97A8F /* libPods-BlindsidedStoryboard_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,7 +112,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				5A47940E5F8F04038DCB96FB /* Pods_BlindsidedStoryboard_Tests.framework in Frameworks */,
+				ED98A1F04F5C41A728090184 /* libPods-BlindsidedStoryboard_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,8 +170,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				0FA846413CC39B8EC38A83FB /* Pods_BlindsidedStoryboard_Example.framework */,
-				9DD3D7410007C61A8AA2423B /* Pods_BlindsidedStoryboard_Tests.framework */,
+				CDBA813235D49ED5E35099B8 /* libPods-BlindsidedStoryboard_Example.a */,
+				73F5B8E55F08F2A5234A2DC5 /* libPods-BlindsidedStoryboard_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -287,7 +287,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				BAC4A3D47D52B72ED9C0C185 /* Embed Pods Frameworks */,
 				C48FADE8FC6148787F6321AE /* Copy Pods Resources */,
 			);
 			buildRules = (
@@ -307,7 +306,6 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				22DF7CC25C2FA2A3E8E7BF48 /* Embed Pods Frameworks */,
 				1EBB253533A1C51C58F55D25 /* Copy Pods Resources */,
 			);
 			buildRules = (
@@ -402,21 +400,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlindsidedStoryboard_Tests/Pods-BlindsidedStoryboard_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		22DF7CC25C2FA2A3E8E7BF48 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlindsidedStoryboard_Tests/Pods-BlindsidedStoryboard_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		2E31B1F2D61D6DD916A6C055 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -445,21 +428,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		BAC4A3D47D52B72ED9C0C185 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlindsidedStoryboard_Example/Pods-BlindsidedStoryboard_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C48FADE8FC6148787F6321AE /* Copy Pods Resources */ = {
