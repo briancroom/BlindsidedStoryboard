@@ -1,6 +1,6 @@
 PODS:
   - Blindside (1.0.0)
-  - BlindsidedStoryboard (0.1.0):
+  - BlindsidedStoryboard (0.2.0):
     - Blindside (~> 1.0)
   - Cedar (0.11.3)
 
@@ -14,7 +14,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Blindside: f7e00c5c3485824fa9f8907335573865cb2cae95
-  BlindsidedStoryboard: 5e6fb0a343c5c1ba5f220372855c92a3929ca9e2
+  BlindsidedStoryboard: dba350142832480672c44e3d044e6a42b981cc07
   Cedar: ab1ea4e5c8af4ee4a8fa0452936679861876dc80
 
 COCOAPODS: 0.37.2

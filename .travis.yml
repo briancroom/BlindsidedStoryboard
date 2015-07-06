@@ -1,5 +1,5 @@
 osx_image: beta-xcode6.3
 language: objective-c
-# before_install: cd Example && pod install && cd -
+before_install: cd Example && pod install && cd -
 script:
 - xctool test -workspace Example/BlindsidedStoryboard.xcworkspace -scheme BlindsidedStoryboard-Example -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO -destination 'platform=iOS Simulator,name=iPhone Retina (4-inch)'
