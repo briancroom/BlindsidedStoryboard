@@ -1,6 +1,6 @@
 # BlindsidedStoryboard
 
-[![CI Status](http://img.shields.io/travis/Brian Croom/BlindsidedStoryboard.svg?style=flat)](https://travis-ci.org/pivotal-brian-croom/BlindsidedStoryboard)
+[![CI Status](http://img.shields.io/travis/Brian Croom/BlindsidedStoryboard.svg?style=flat)](https://travis-ci.org/briancroom/BlindsidedStoryboard)
 [![Version](https://img.shields.io/cocoapods/v/BlindsidedStoryboard.svg?style=flat)](http://cocoapods.org/pods/BlindsidedStoryboard)
 [![License](https://img.shields.io/cocoapods/l/BlindsidedStoryboard.svg?style=flat)](http://cocoapods.org/pods/BlindsidedStoryboard)
 [![Platform](https://img.shields.io/cocoapods/p/BlindsidedStoryboard.svg?style=flat)](http://cocoapods.org/pods/BlindsidedStoryboard)
@@ -11,7 +11,7 @@ Storyboards make dependency injection of view controllers challenging, because t
 
 This pod provides a `BlindsidedStoryboard` subclass of UIStoryboard which exemplifies this technique, integrating with the [Blindside](https://github.com/jbsf/blindside) DI framework. It includes a small sample app demonstrating how this could be used.
 
-The BlindsidedStoryboard(CrossStoryboardSegues) category can be included to allow for seamless integration with [Cross Storyboard Segues](https://github.com/pivotal-brian-croom/CrossStoryboardSegues)
+The BlindsidedStoryboard(CrossStoryboardSegues) category can be included to allow for seamless integration with [Cross Storyboard Segues](https://github.com/briancroom/CrossStoryboardSegues)
 
 ## Usage
 
