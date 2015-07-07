@@ -44,7 +44,7 @@ describe(@"AppDelegate", ^{
 
         appDelegate = [[AppDelegate alloc] init];
         appDelegate.injector = injector;
-        [appDelegate application:nil didFinishLaunchingWithOptions:nil];
+        [appDelegate application:[UIApplication sharedApplication] didFinishLaunchingWithOptions:nil];
 
         tabController = (UITabBarController *)appDelegate.window.rootViewController;
         tabController should be_instance_of([UITabBarController class]);
