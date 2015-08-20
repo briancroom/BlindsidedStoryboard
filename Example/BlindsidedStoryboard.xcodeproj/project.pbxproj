@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		3411ED1B1B852F0900F8747B /* BlindsidedStoryboard+CrossStoryboardSegues.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B985BD1B1A4E3E00DE719D /* BlindsidedStoryboard+CrossStoryboardSegues.m */; };
 		3411ED1D1B85801400F8747B /* BlindsidedStoryboardClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 3411ED1C1B852FE100F8747B /* BlindsidedStoryboardClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3411ED201B867A6500F8747B /* BSStoryboardKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 3411ED1E1B867A6500F8747B /* BSStoryboardKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3411ED211B867A6500F8747B /* BSStoryboardKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 3411ED1F1B867A6500F8747B /* BSStoryboardKey.m */; };
+		3411ED231B867B9800F8747B /* BSStoryboardKeySpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3411ED221B867B9800F8747B /* BSStoryboardKeySpec.mm */; };
 		34B985611B1A28E700DE719D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B985591B1A28E700DE719D /* AppDelegate.m */; };
 		34B985621B1A28E700DE719D /* EmbeddedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9855B1B1A28E700DE719D /* EmbeddedViewController.m */; };
 		34B985631B1A28E700DE719D /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9855D1B1A28E700DE719D /* FirstViewController.m */; };
@@ -49,6 +52,9 @@
 
 /* Begin PBXFileReference section */
 		3411ED1C1B852FE100F8747B /* BlindsidedStoryboardClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BlindsidedStoryboardClass.h; path = ../../Pod/Classes/BlindsidedStoryboardClass.h; sourceTree = "<group>"; };
+		3411ED1E1B867A6500F8747B /* BSStoryboardKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BSStoryboardKey.h; path = ../../Pod/Classes/BSStoryboardKey.h; sourceTree = "<group>"; };
+		3411ED1F1B867A6500F8747B /* BSStoryboardKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BSStoryboardKey.m; path = ../../Pod/Classes/BSStoryboardKey.m; sourceTree = "<group>"; };
+		3411ED221B867B9800F8747B /* BSStoryboardKeySpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BSStoryboardKeySpec.mm; sourceTree = "<group>"; };
 		34B985581B1A28E700DE719D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		34B985591B1A28E700DE719D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		34B9855A1B1A28E700DE719D /* EmbeddedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmbeddedViewController.h; sourceTree = "<group>"; };
@@ -138,6 +144,8 @@
 				3411ED1C1B852FE100F8747B /* BlindsidedStoryboardClass.h */,
 				34C6B4641B828B040042EB8C /* BSStoryboardProvider.h */,
 				34C6B4651B828B040042EB8C /* BSStoryboardProvider.m */,
+				3411ED1E1B867A6500F8747B /* BSStoryboardKey.h */,
+				3411ED1F1B867A6500F8747B /* BSStoryboardKey.m */,
 				34B985BC1B1A4E3E00DE719D /* BlindsidedStoryboard+CrossStoryboardSegues.h */,
 				34B985BD1B1A4E3E00DE719D /* BlindsidedStoryboard+CrossStoryboardSegues.m */,
 				34B985A31B1A4D4500DE719D /* Supporting Files */,
@@ -228,6 +236,7 @@
 				34C6B46A1B828D710042EB8C /* TestModule.h */,
 				34C6B46B1B828D710042EB8C /* TestModule.m */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
+				3411ED221B867B9800F8747B /* BSStoryboardKeySpec.mm */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -270,6 +279,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3411ED201B867A6500F8747B /* BSStoryboardKey.h in Headers */,
 				34B985BE1B1A4E3E00DE719D /* BlindsidedStoryboard.h in Headers */,
 				34C6B4661B828B040042EB8C /* BSStoryboardProvider.h in Headers */,
 				3411ED1D1B85801400F8747B /* BlindsidedStoryboardClass.h in Headers */,
@@ -474,6 +484,7 @@
 				34B985BF1B1A4E3E00DE719D /* BlindsidedStoryboardClass.m in Sources */,
 				3411ED1B1B852F0900F8747B /* BlindsidedStoryboard+CrossStoryboardSegues.m in Sources */,
 				34C6B4671B828B040042EB8C /* BSStoryboardProvider.m in Sources */,
+				3411ED211B867A6500F8747B /* BSStoryboardKey.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,6 +504,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3411ED231B867B9800F8747B /* BSStoryboardKeySpec.mm in Sources */,
 				34B985681B1A2ACB00DE719D /* AppDelegateSpec.mm in Sources */,
 				34C6B46C1B828D710042EB8C /* TestModule.m in Sources */,
 				34C6B4691B828D580042EB8C /* BSStoryboardProviderSpec.mm in Sources */,

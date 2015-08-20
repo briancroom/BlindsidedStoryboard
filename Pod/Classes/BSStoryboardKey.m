@@ -1,33 +1,33 @@
+#import "BSStoryboardKey.h"
 #import "BSStoryboardProvider.h"
-#import "BlindsidedStoryboardClass.h"
 
-@interface BSStoryboardProvider ()
+@interface BSStoryboardKey ()
 @property (nonatomic, copy) NSString *storyboardName;
 @property (nonatomic, strong) NSBundle *storyboardBundle;
 @property (nonatomic, copy) NSString *viewControllerIdentifier;
 @end
 
-@implementation BSStoryboardProvider
+@implementation BSStoryboardKey
 
-+ (instancetype)providerForInitialViewControllerInStoryboardWithName:(NSString *)storyboardName {
++ (instancetype)keyForInitialViewControllerInStoryboardWithName:(NSString *)storyboardName {
     return [[self alloc] initWithStoryboardName:storyboardName
                                          bundle:nil
                        viewControllerIdentifier:nil];
 }
 
-+ (instancetype)providerForInitialViewControllerInStoryboardWithName:(NSString *)storyboardName bundle:(NSBundle *)bundle {
++ (instancetype)keyForInitialViewControllerInStoryboardWithName:(NSString *)storyboardName bundle:(NSBundle *)bundle {
     return [[self alloc] initWithStoryboardName:storyboardName
                                          bundle:bundle
                        viewControllerIdentifier:nil];
 }
 
-+ (instancetype)providerForViewControllerWithIdentifier:(NSString *)identifier storyboardName:(NSString *)storyboardName {
++ (instancetype)keyForViewControllerWithIdentifier:(NSString *)identifier storyboardName:(NSString *)storyboardName {
     return [[self alloc] initWithStoryboardName:storyboardName
                                          bundle:nil
                        viewControllerIdentifier:identifier];
 }
 
-+ (instancetype)providerForViewControllerWithIdentifier:(NSString *)identifier storyboardName:(NSString *)storyboardName bundle:(NSBundle *)bundle {
++ (instancetype)keyForViewControllerWithIdentifier:(NSString *)identifier storyboardName:(NSString *)storyboardName bundle:(NSBundle *)bundle {
     return [[self alloc] initWithStoryboardName:storyboardName
                                          bundle:bundle
                        viewControllerIdentifier:identifier];
@@ -44,15 +44,14 @@
     return self;
 }
 
-- (id)provide:(NSArray *)args injector:(id<BSInjector>)injector {
-    UIStoryboard *storyboard = [BlindsidedStoryboard storyboardWithName:self.storyboardName
-                                                                 bundle:self.storyboardBundle
-                                                               injector:injector];
+- (id)bsCreateWithArgs:(NSArray *)args injector:(id<BSInjector>)injector {
+    id<BSProvider> provider;
     if (self.viewControllerIdentifier.length > 0) {
-        return [storyboard instantiateViewControllerWithIdentifier:self.viewControllerIdentifier];
+        provider = [BSStoryboardProvider providerForViewControllerWithIdentifier:self.viewControllerIdentifier storyboardName:self.storyboardName bundle:self.storyboardBundle];
     } else {
-        return [storyboard instantiateInitialViewController];
+        provider = [BSStoryboardProvider providerForInitialViewControllerInStoryboardWithName:self.storyboardName bundle:self.storyboardBundle];
     }
+    return [provider provide:args injector:injector];
 }
 
 @end

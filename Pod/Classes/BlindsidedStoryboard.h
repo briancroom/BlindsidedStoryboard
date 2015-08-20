@@ -3,4 +3,5 @@
 
 #import <BlindsidedStoryboard/BlindsidedStoryboardClass.h>
 #import <BlindsidedStoryboard/BSStoryboardProvider.h>
+#import <BlindsidedStoryboard/BSStoryboardKey.h>
 #import <BlindsidedStoryboard/BlindsidedStoryboard+CrossStoryboardSegues.h>
