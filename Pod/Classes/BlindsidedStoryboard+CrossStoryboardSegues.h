@@ -1,4 +1,4 @@
-#import "BlindsidedStoryboard.h"
+#import <BlindsidedStoryboard/BlindsidedStoryboardClass.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

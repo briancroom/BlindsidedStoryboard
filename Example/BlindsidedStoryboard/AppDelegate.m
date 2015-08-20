@@ -1,5 +1,5 @@
 #import "AppDelegate.h"
-#import "BlindsidedStoryboard.h"
+#import <BlindsidedStoryboard/BlindsidedStoryboard.h>
 
 @interface AppDelegate () <BSModule>
 @end

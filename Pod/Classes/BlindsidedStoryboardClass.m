@@ -1,4 +1,4 @@
-#import "BlindsidedStoryboard.h"
+#import "BlindsidedStoryboardClass.h"
 #import <objc/runtime.h>
 
 @implementation BlindsidedStoryboard

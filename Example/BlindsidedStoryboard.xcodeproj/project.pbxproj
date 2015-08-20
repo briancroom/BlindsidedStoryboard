@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3411ED1B1B852F0900F8747B /* BlindsidedStoryboard+CrossStoryboardSegues.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B985BD1B1A4E3E00DE719D /* BlindsidedStoryboard+CrossStoryboardSegues.m */; };
+		3411ED1D1B85801400F8747B /* BlindsidedStoryboardClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 3411ED1C1B852FE100F8747B /* BlindsidedStoryboardClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		34B985611B1A28E700DE719D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B985591B1A28E700DE719D /* AppDelegate.m */; };
 		34B985621B1A28E700DE719D /* EmbeddedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9855B1B1A28E700DE719D /* EmbeddedViewController.m */; };
 		34B985631B1A28E700DE719D /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9855D1B1A28E700DE719D /* FirstViewController.m */; };
@@ -14,10 +16,13 @@
 		34B985651B1A28E700DE719D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B985601B1A28E700DE719D /* SecondViewController.m */; };
 		34B985681B1A2ACB00DE719D /* AppDelegateSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 34B985661B1A2AC700DE719D /* AppDelegateSpec.mm */; };
 		34B985BE1B1A4E3E00DE719D /* BlindsidedStoryboard.h in Headers */ = {isa = PBXBuildFile; fileRef = 34B985BA1B1A4E3E00DE719D /* BlindsidedStoryboard.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		34B985BF1B1A4E3E00DE719D /* BlindsidedStoryboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B985BB1B1A4E3E00DE719D /* BlindsidedStoryboard.m */; };
+		34B985BF1B1A4E3E00DE719D /* BlindsidedStoryboardClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B985BB1B1A4E3E00DE719D /* BlindsidedStoryboardClass.m */; };
 		34B985C01B1A4E3E00DE719D /* BlindsidedStoryboard+CrossStoryboardSegues.h in Headers */ = {isa = PBXBuildFile; fileRef = 34B985BC1B1A4E3E00DE719D /* BlindsidedStoryboard+CrossStoryboardSegues.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		34B985C11B1A4E3E00DE719D /* BlindsidedStoryboard+CrossStoryboardSegues.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B985BD1B1A4E3E00DE719D /* BlindsidedStoryboard+CrossStoryboardSegues.m */; };
 		34B985C31B1A51F200DE719D /* Blindside.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34B985C21B1A51F200DE719D /* Blindside.framework */; };
+		34C6B4661B828B040042EB8C /* BSStoryboardProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 34C6B4641B828B040042EB8C /* BSStoryboardProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34C6B4671B828B040042EB8C /* BSStoryboardProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C6B4651B828B040042EB8C /* BSStoryboardProvider.m */; };
+		34C6B4691B828D580042EB8C /* BSStoryboardProviderSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 34C6B4681B828D580042EB8C /* BSStoryboardProviderSpec.mm */; };
+		34C6B46C1B828D710042EB8C /* TestModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C6B46B1B828D710042EB8C /* TestModule.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -43,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3411ED1C1B852FE100F8747B /* BlindsidedStoryboardClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BlindsidedStoryboardClass.h; path = ../../Pod/Classes/BlindsidedStoryboardClass.h; sourceTree = "<group>"; };
 		34B985581B1A28E700DE719D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		34B985591B1A28E700DE719D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		34B9855A1B1A28E700DE719D /* EmbeddedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmbeddedViewController.h; sourceTree = "<group>"; };
@@ -56,10 +62,15 @@
 		34B985A11B1A4D4500DE719D /* BlindsidedStoryboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BlindsidedStoryboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		34B985A41B1A4D4500DE719D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34B985BA1B1A4E3E00DE719D /* BlindsidedStoryboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BlindsidedStoryboard.h; path = ../../Pod/Classes/BlindsidedStoryboard.h; sourceTree = "<group>"; };
-		34B985BB1B1A4E3E00DE719D /* BlindsidedStoryboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BlindsidedStoryboard.m; path = ../../Pod/Classes/BlindsidedStoryboard.m; sourceTree = "<group>"; };
+		34B985BB1B1A4E3E00DE719D /* BlindsidedStoryboardClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BlindsidedStoryboardClass.m; path = ../../Pod/Classes/BlindsidedStoryboardClass.m; sourceTree = "<group>"; };
 		34B985BC1B1A4E3E00DE719D /* BlindsidedStoryboard+CrossStoryboardSegues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "BlindsidedStoryboard+CrossStoryboardSegues.h"; path = "../../Pod/Classes/BlindsidedStoryboard+CrossStoryboardSegues.h"; sourceTree = "<group>"; };
 		34B985BD1B1A4E3E00DE719D /* BlindsidedStoryboard+CrossStoryboardSegues.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "BlindsidedStoryboard+CrossStoryboardSegues.m"; path = "../../Pod/Classes/BlindsidedStoryboard+CrossStoryboardSegues.m"; sourceTree = "<group>"; };
 		34B985C21B1A51F200DE719D /* Blindside.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Blindside.framework; path = ../Carthage/Build/iOS/Blindside.framework; sourceTree = "<group>"; };
+		34C6B4641B828B040042EB8C /* BSStoryboardProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BSStoryboardProvider.h; path = ../../Pod/Classes/BSStoryboardProvider.h; sourceTree = "<group>"; };
+		34C6B4651B828B040042EB8C /* BSStoryboardProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BSStoryboardProvider.m; path = ../../Pod/Classes/BSStoryboardProvider.m; sourceTree = "<group>"; };
+		34C6B4681B828D580042EB8C /* BSStoryboardProviderSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BSStoryboardProviderSpec.mm; sourceTree = "<group>"; };
+		34C6B46A1B828D710042EB8C /* TestModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestModule.h; sourceTree = "<group>"; };
+		34C6B46B1B828D710042EB8C /* TestModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestModule.m; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* BlindsidedStoryboard_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlindsidedStoryboard_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -123,7 +134,10 @@
 			isa = PBXGroup;
 			children = (
 				34B985BA1B1A4E3E00DE719D /* BlindsidedStoryboard.h */,
-				34B985BB1B1A4E3E00DE719D /* BlindsidedStoryboard.m */,
+				34B985BB1B1A4E3E00DE719D /* BlindsidedStoryboardClass.m */,
+				3411ED1C1B852FE100F8747B /* BlindsidedStoryboardClass.h */,
+				34C6B4641B828B040042EB8C /* BSStoryboardProvider.h */,
+				34C6B4651B828B040042EB8C /* BSStoryboardProvider.m */,
 				34B985BC1B1A4E3E00DE719D /* BlindsidedStoryboard+CrossStoryboardSegues.h */,
 				34B985BD1B1A4E3E00DE719D /* BlindsidedStoryboard+CrossStoryboardSegues.m */,
 				34B985A31B1A4D4500DE719D /* Supporting Files */,
@@ -210,6 +224,9 @@
 			isa = PBXGroup;
 			children = (
 				34B985661B1A2AC700DE719D /* AppDelegateSpec.mm */,
+				34C6B4681B828D580042EB8C /* BSStoryboardProviderSpec.mm */,
+				34C6B46A1B828D710042EB8C /* TestModule.h */,
+				34C6B46B1B828D710042EB8C /* TestModule.m */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
 			);
 			path = Tests;
@@ -254,6 +271,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				34B985BE1B1A4E3E00DE719D /* BlindsidedStoryboard.h in Headers */,
+				34C6B4661B828B040042EB8C /* BSStoryboardProvider.h in Headers */,
+				3411ED1D1B85801400F8747B /* BlindsidedStoryboardClass.h in Headers */,
 				34B985C01B1A4E3E00DE719D /* BlindsidedStoryboard+CrossStoryboardSegues.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -452,8 +471,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34B985C11B1A4E3E00DE719D /* BlindsidedStoryboard+CrossStoryboardSegues.m in Sources */,
-				34B985BF1B1A4E3E00DE719D /* BlindsidedStoryboard.m in Sources */,
+				34B985BF1B1A4E3E00DE719D /* BlindsidedStoryboardClass.m in Sources */,
+				3411ED1B1B852F0900F8747B /* BlindsidedStoryboard+CrossStoryboardSegues.m in Sources */,
+				34C6B4671B828B040042EB8C /* BSStoryboardProvider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +494,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				34B985681B1A2ACB00DE719D /* AppDelegateSpec.mm in Sources */,
+				34C6B46C1B828D710042EB8C /* TestModule.m in Sources */,
+				34C6B4691B828D580042EB8C /* BSStoryboardProviderSpec.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -510,6 +532,7 @@
 		34B985B41B1A4D4500DE719D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -542,6 +565,7 @@
 		34B985B51B1A4D4500DE719D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;

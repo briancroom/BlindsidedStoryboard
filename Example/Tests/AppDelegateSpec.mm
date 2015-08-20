@@ -3,26 +3,10 @@
 #import "FirstViewController.h"
 #import "SecondViewController.h"
 #import "EmbeddedViewController.h"
+#import "TestModule.h"
 
 using namespace Cedar::Matchers;
 using namespace Cedar::Doubles;
-
-@interface TestModule : NSObject <BSModule>
-@property (nonatomic, copy) void (^block)(id<BSBinder>);
-- (id)initWithBlock:(void (^)(id<BSBinder>))block;
-@end
-
-@implementation TestModule
-- (id)initWithBlock:(void (^)(id<BSBinder>))block {
-    if ((self = [super init])) {
-        self.block = block;
-    }
-    return self;
-}
-- (void)configure:(id<BSBinder>)binder {
-    self.block(binder);
-}
-@end
 
 SPEC_BEGIN(AppDelegateSpec)
 
