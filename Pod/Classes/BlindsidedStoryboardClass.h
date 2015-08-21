@@ -4,7 +4,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 /**
- * View controller instantiated by an instance of this class will have
+ * View controllers instantiated by an instance of this class will have
  * their properties injected, if they implement a +bsProperties method.
  *
  * When following a segue, the destination view controller is created

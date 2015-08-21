@@ -140,8 +140,8 @@
 			isa = PBXGroup;
 			children = (
 				34B985BA1B1A4E3E00DE719D /* BlindsidedStoryboard.h */,
-				34B985BB1B1A4E3E00DE719D /* BlindsidedStoryboardClass.m */,
 				3411ED1C1B852FE100F8747B /* BlindsidedStoryboardClass.h */,
+				34B985BB1B1A4E3E00DE719D /* BlindsidedStoryboardClass.m */,
 				34C6B4641B828B040042EB8C /* BSStoryboardProvider.h */,
 				34C6B4651B828B040042EB8C /* BSStoryboardProvider.m */,
 				3411ED1E1B867A6500F8747B /* BSStoryboardKey.h */,
