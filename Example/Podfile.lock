@@ -1,8 +1,8 @@
 PODS:
-  - Blindside (1.1.0)
+  - Blindside (1.2.0)
   - BlindsidedStoryboard (0.3.0):
     - Blindside (~> 1.1)
-  - Cedar (0.11.3)
+  - Cedar (0.12.0)
 
 DEPENDENCIES:
   - BlindsidedStoryboard (from `../`)
@@ -13,8 +13,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  Blindside: 1cc643444b397a183c6731bbe811ec6f72e8540b
+  Blindside: 70df36cf7acfe5640c4a86eea590ff025adbc105
   BlindsidedStoryboard: 65676f607e6a19da47994883a58c487c45f6fbfc
-  Cedar: ab1ea4e5c8af4ee4a8fa0452936679861876dc80
+  Cedar: 57e00c655546e4a9dccbfcd95894565872585742
 
-COCOAPODS: 0.38.2
+COCOAPODS: 0.39.0
