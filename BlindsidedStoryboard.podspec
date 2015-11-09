@@ -22,7 +22,9 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://twitter.com/aikoniv'
   s.source           = { :git => "https://github.com/briancroom/BlindsidedStoryboard.git", :tag => s.version.to_s }
 
-  s.platform     = :ios, '5.0'
+  s.ios.deployment_target = '5.0'
+  s.tvos.deployment_target = '9.0'
+
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
