@@ -57,8 +57,6 @@
 		8FCAC31DD28A7C3A50A3572C /* libPods-BlindsidedStoryboard-tvOS_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 720A6DCD1740E002ABDCF8B8 /* libPods-BlindsidedStoryboard-tvOS_Tests.a */; };
 		986D4153197BDB182476A521 /* libPods-BlindsidedStoryboard-tvOS_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1826B60A0EE3DF905E380AE6 /* libPods-BlindsidedStoryboard-tvOS_Example.a */; };
 		C2A68BC791E36E62C0D7463C /* libPods-BlindsidedStoryboard-iOS_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4813244575D9351E07652425 /* libPods-BlindsidedStoryboard-iOS_Tests.a */; };
-		C46674D95CB4529C54C97A8F /* libPods-BlindsidedStoryboard_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBA813235D49ED5E35099B8 /* libPods-BlindsidedStoryboard_Example.a */; };
-		ED98A1F04F5C41A728090184 /* libPods-BlindsidedStoryboard_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73F5B8E55F08F2A5234A2DC5 /* libPods-BlindsidedStoryboard_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -178,7 +176,6 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				C46674D95CB4529C54C97A8F /* libPods-BlindsidedStoryboard_Example.a in Frameworks */,
 				1F3656709E581CACA8A730F4 /* libPods-BlindsidedStoryboard-iOS_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -190,7 +187,6 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				ED98A1F04F5C41A728090184 /* libPods-BlindsidedStoryboard_Tests.a in Frameworks */,
 				C2A68BC791E36E62C0D7463C /* libPods-BlindsidedStoryboard-iOS_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
