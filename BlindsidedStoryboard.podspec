@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "BlindsidedStoryboard"
-  s.version          = "0.3.0"
+  s.version          = "0.4.0"
   s.summary          = "A storyboard subclass which enables injecting dependencies into view controllers using Blindside."
   s.description      = <<-DESC
                             Storyboards make dependency injection of view controllers challenging, because they insist on instantiating the view controllers internally. This restriction can be worked around by subclassing UIStoryboard and overriding the -instantiateViewControllerWithIdentifier: method to perform configuration work immediately following the instantiation. The same storyboard instance that is used to create the initial view controller will be used to instantiate further view controllers accessed via segues.
