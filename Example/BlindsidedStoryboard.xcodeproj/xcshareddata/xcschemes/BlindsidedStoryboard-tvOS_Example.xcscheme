@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6003F589195388D20070C39A"
-               BuildableName = "BlindsidedStoryboard_Example.app"
-               BlueprintName = "BlindsidedStoryboard_Example"
+               BlueprintIdentifier = "34B7B2791BFAB5180043B1C3"
+               BuildableName = "BlindsidedStoryboard-tvOS_Example.app"
+               BlueprintName = "BlindsidedStoryboard-tvOS_Example"
                ReferencedContainer = "container:BlindsidedStoryboard.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6003F5AD195388D20070C39A"
-               BuildableName = "BlindsidedStoryboard_Tests.xctest"
-               BlueprintName = "BlindsidedStoryboard_Tests"
+               BlueprintIdentifier = "34B7B2911BFAB5190043B1C3"
+               BuildableName = "BlindsidedStoryboard-tvOS_Tests.xctest"
+               BlueprintName = "BlindsidedStoryboard-tvOS_Tests"
                ReferencedContainer = "container:BlindsidedStoryboard.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -42,9 +42,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "BlindsidedStoryboard_Example.app"
-            BlueprintName = "BlindsidedStoryboard_Example"
+            BlueprintIdentifier = "34B7B2791BFAB5180043B1C3"
+            BuildableName = "BlindsidedStoryboard-tvOS_Example.app"
+            BlueprintName = "BlindsidedStoryboard-tvOS_Example"
             ReferencedContainer = "container:BlindsidedStoryboard.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -65,9 +65,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "BlindsidedStoryboard_Example.app"
-            BlueprintName = "BlindsidedStoryboard_Example"
+            BlueprintIdentifier = "34B7B2791BFAB5180043B1C3"
+            BuildableName = "BlindsidedStoryboard-tvOS_Example.app"
+            BlueprintName = "BlindsidedStoryboard-tvOS_Example"
             ReferencedContainer = "container:BlindsidedStoryboard.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -84,9 +84,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "BlindsidedStoryboard_Example.app"
-            BlueprintName = "BlindsidedStoryboard_Example"
+            BlueprintIdentifier = "34B7B2791BFAB5180043B1C3"
+            BuildableName = "BlindsidedStoryboard-tvOS_Example.app"
+            BlueprintName = "BlindsidedStoryboard-tvOS_Example"
             ReferencedContainer = "container:BlindsidedStoryboard.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

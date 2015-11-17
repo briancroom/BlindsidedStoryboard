@@ -1,10 +1,25 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
-target 'BlindsidedStoryboard_Example', :exclusive => true do
+target 'BlindsidedStoryboard-iOS_Example', :exclusive => true do
+  platform :ios, '8.0'
   pod "BlindsidedStoryboard", :path => "../"
 end
 
-target 'BlindsidedStoryboard_Tests', :exclusive => true do
+target 'BlindsidedStoryboard-tvOS_Example', :exclusive => true do
+  platform :tvos, '9.0'
   pod "BlindsidedStoryboard", :path => "../"
-  pod 'Cedar'
+  pod "Blindside", :git => 'https://github.com/jbsf/blindside.git', :branch => 'master'
+end
+
+target 'BlindsidedStoryboard-iOS_Tests', :exclusive => true do
+  platform :ios, '8.0'
+  pod "BlindsidedStoryboard", :path => "../"
+  pod "Cedar", :git => 'https://github.com/pivotal/cedar.git', :branch => 'master'
+end
+
+target 'BlindsidedStoryboard-tvOS_Tests', :exclusive => true do
+  platform :tvos, '9.0'
+  pod "BlindsidedStoryboard", :path => "../"
+  pod "Blindside", :git => 'https://github.com/jbsf/blindside.git', :branch => 'master'
+  pod "Cedar", :git => 'https://github.com/pivotal/cedar.git', :branch => 'master'
 end

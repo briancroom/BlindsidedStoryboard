@@ -7,16 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F3656709E581CACA8A730F4 /* libPods-BlindsidedStoryboard-iOS_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AACF21A65AA2F210C7DD08F /* libPods-BlindsidedStoryboard-iOS_Example.a */; };
 		3411ED1B1B852F0900F8747B /* BlindsidedStoryboard+CrossStoryboardSegues.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B985BD1B1A4E3E00DE719D /* BlindsidedStoryboard+CrossStoryboardSegues.m */; };
 		3411ED1D1B85801400F8747B /* BlindsidedStoryboardClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 3411ED1C1B852FE100F8747B /* BlindsidedStoryboardClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3411ED201B867A6500F8747B /* BSStoryboardKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 3411ED1E1B867A6500F8747B /* BSStoryboardKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3411ED211B867A6500F8747B /* BSStoryboardKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 3411ED1F1B867A6500F8747B /* BSStoryboardKey.m */; };
 		3411ED231B867B9800F8747B /* BSStoryboardKeySpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3411ED221B867B9800F8747B /* BSStoryboardKeySpec.mm */; };
+		34B7B2A31BFAC2170043B1C3 /* AppDelegateSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 34B985661B1A2AC700DE719D /* AppDelegateSpec.mm */; };
+		34B7B2A41BFAC2170043B1C3 /* BSStoryboardProviderSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 34C6B4681B828D580042EB8C /* BSStoryboardProviderSpec.mm */; };
+		34B7B2A51BFAC2170043B1C3 /* BSStoryboardKeySpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3411ED221B867B9800F8747B /* BSStoryboardKeySpec.mm */; };
+		34B7B2A61BFAC2170043B1C3 /* TestModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C6B46B1B828D710042EB8C /* TestModule.m */; };
+		34B7B2A71BFAC27F0043B1C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B985591B1A28E700DE719D /* AppDelegate.m */; };
+		34B7B2A81BFAC27F0043B1C3 /* EmbeddedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9855B1B1A28E700DE719D /* EmbeddedViewController.m */; };
+		34B7B2A91BFAC27F0043B1C3 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9855D1B1A28E700DE719D /* FirstViewController.m */; };
+		34B7B2AA1BFAC27F0043B1C3 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B985601B1A28E700DE719D /* SecondViewController.m */; };
+		34B7B2AB1BFAC2840043B1C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
+		34B7B2AC1BFAC3760043B1C3 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B985601B1A28E700DE719D /* SecondViewController.m */; };
+		34B7B2B01BFAC4280043B1C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34B7B2AF1BFAC4280043B1C3 /* Main.storyboard */; };
 		34B985611B1A28E700DE719D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B985591B1A28E700DE719D /* AppDelegate.m */; };
 		34B985621B1A28E700DE719D /* EmbeddedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9855B1B1A28E700DE719D /* EmbeddedViewController.m */; };
 		34B985631B1A28E700DE719D /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9855D1B1A28E700DE719D /* FirstViewController.m */; };
 		34B985641B1A28E700DE719D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34B9855E1B1A28E700DE719D /* Main.storyboard */; };
-		34B985651B1A28E700DE719D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B985601B1A28E700DE719D /* SecondViewController.m */; };
 		34B985681B1A2ACB00DE719D /* AppDelegateSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 34B985661B1A2AC700DE719D /* AppDelegateSpec.mm */; };
 		34B985BE1B1A4E3E00DE719D /* BlindsidedStoryboard.h in Headers */ = {isa = PBXBuildFile; fileRef = 34B985BA1B1A4E3E00DE719D /* BlindsidedStoryboard.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		34B985BF1B1A4E3E00DE719D /* BlindsidedStoryboardClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B985BB1B1A4E3E00DE719D /* BlindsidedStoryboardClass.m */; };
@@ -39,18 +50,25 @@
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
-		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
-		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
-		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
+		8FCAC31DD28A7C3A50A3572C /* libPods-BlindsidedStoryboard-tvOS_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 720A6DCD1740E002ABDCF8B8 /* libPods-BlindsidedStoryboard-tvOS_Tests.a */; };
+		986D4153197BDB182476A521 /* libPods-BlindsidedStoryboard-tvOS_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1826B60A0EE3DF905E380AE6 /* libPods-BlindsidedStoryboard-tvOS_Example.a */; };
+		C2A68BC791E36E62C0D7463C /* libPods-BlindsidedStoryboard-iOS_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4813244575D9351E07652425 /* libPods-BlindsidedStoryboard-iOS_Tests.a */; };
 		C46674D95CB4529C54C97A8F /* libPods-BlindsidedStoryboard_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBA813235D49ED5E35099B8 /* libPods-BlindsidedStoryboard_Example.a */; };
 		ED98A1F04F5C41A728090184 /* libPods-BlindsidedStoryboard_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73F5B8E55F08F2A5234A2DC5 /* libPods-BlindsidedStoryboard_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		34B7B2931BFAB5190043B1C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6003F582195388D10070C39A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34B7B2791BFAB5180043B1C3;
+			remoteInfo = "BlindsidedStoryboard-tvOS_Example";
+		};
 		6003F5B3195388D20070C39A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6003F582195388D10070C39A /* Project object */;
@@ -61,17 +79,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A0F9C34433033A3D07BCD7A /* Pods-BlindsidedStoryboard-tvOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlindsidedStoryboard-tvOS_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlindsidedStoryboard-tvOS_Tests/Pods-BlindsidedStoryboard-tvOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1826B60A0EE3DF905E380AE6 /* libPods-BlindsidedStoryboard-tvOS_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BlindsidedStoryboard-tvOS_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2976D44711AAD7A99398558B /* Pods-BlindsidedStoryboard-tvOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlindsidedStoryboard-tvOS_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlindsidedStoryboard-tvOS_Tests/Pods-BlindsidedStoryboard-tvOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3411ED1C1B852FE100F8747B /* BlindsidedStoryboardClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BlindsidedStoryboardClass.h; path = ../../Pod/Classes/BlindsidedStoryboardClass.h; sourceTree = "<group>"; };
 		3411ED1E1B867A6500F8747B /* BSStoryboardKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BSStoryboardKey.h; path = ../../Pod/Classes/BSStoryboardKey.h; sourceTree = "<group>"; };
 		3411ED1F1B867A6500F8747B /* BSStoryboardKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BSStoryboardKey.m; path = ../../Pod/Classes/BSStoryboardKey.m; sourceTree = "<group>"; };
 		3411ED221B867B9800F8747B /* BSStoryboardKeySpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BSStoryboardKeySpec.mm; sourceTree = "<group>"; };
+		34B7B27A1BFAB5180043B1C3 /* BlindsidedStoryboard-tvOS_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BlindsidedStoryboard-tvOS_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34B7B2921BFAB5190043B1C3 /* BlindsidedStoryboard-tvOS_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BlindsidedStoryboard-tvOS_Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34B7B29F1BFAC18C0043B1C3 /* Pods-BlindsidedStoryboard-iOS_Example.debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Pods-BlindsidedStoryboard-iOS_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlindsidedStoryboard-iOS_Example/Pods-BlindsidedStoryboard-iOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		34B7B2A01BFAC18C0043B1C3 /* Pods-BlindsidedStoryboard-iOS_Example.release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Pods-BlindsidedStoryboard-iOS_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlindsidedStoryboard-iOS_Example/Pods-BlindsidedStoryboard-iOS_Example.release.xcconfig"; sourceTree = "<group>"; };
+		34B7B2A11BFAC19F0043B1C3 /* Pods-BlindsidedStoryboard-iOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Pods-BlindsidedStoryboard-iOS_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlindsidedStoryboard-iOS_Tests/Pods-BlindsidedStoryboard-iOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		34B7B2A21BFAC19F0043B1C3 /* Pods-BlindsidedStoryboard-iOS_Tests.release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Pods-BlindsidedStoryboard-iOS_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlindsidedStoryboard-iOS_Tests/Pods-BlindsidedStoryboard-iOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		34B7B2AF1BFAC4280043B1C3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = tvOS/Main.storyboard; sourceTree = "<group>"; };
 		34B985581B1A28E700DE719D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		34B985591B1A28E700DE719D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		34B9855A1B1A28E700DE719D /* EmbeddedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmbeddedViewController.h; sourceTree = "<group>"; };
 		34B9855B1B1A28E700DE719D /* EmbeddedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmbeddedViewController.m; sourceTree = "<group>"; };
 		34B9855C1B1A28E700DE719D /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		34B9855D1B1A28E700DE719D /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		34B9855E1B1A28E700DE719D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		34B9855E1B1A28E700DE719D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = iOS/Main.storyboard; sourceTree = "<group>"; };
 		34B9855F1B1A28E700DE719D /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		34B985601B1A28E700DE719D /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		34B985661B1A2AC700DE719D /* AppDelegateSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegateSpec.mm; sourceTree = "<group>"; };
@@ -89,32 +117,44 @@
 		34C6B46B1B828D710042EB8C /* TestModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestModule.m; sourceTree = "<group>"; };
 		34C9F2611BF05979001CC70B /* BlindsidedStoryboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BlindsidedStoryboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		34C9F26A1BF0FA68001CC70B /* Blindside.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Blindside.framework; path = ../Carthage/Build/tvOS/Blindside.framework; sourceTree = "<group>"; };
-		6003F58A195388D20070C39A /* BlindsidedStoryboard_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlindsidedStoryboard_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4813244575D9351E07652425 /* libPods-BlindsidedStoryboard-iOS_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BlindsidedStoryboard-iOS_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AACF21A65AA2F210C7DD08F /* libPods-BlindsidedStoryboard-iOS_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BlindsidedStoryboard-iOS_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58A195388D20070C39A /* BlindsidedStoryboard-iOS_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BlindsidedStoryboard-iOS_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6003F595195388D20070C39A /* BlindsidedStoryboard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlindsidedStoryboard-Info.plist"; sourceTree = "<group>"; };
-		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6003F59B195388D20070C39A /* BlindsidedStoryboard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlindsidedStoryboard-Prefix.pch"; sourceTree = "<group>"; };
-		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6003F5AE195388D20070C39A /* BlindsidedStoryboard_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlindsidedStoryboard_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AE195388D20070C39A /* BlindsidedStoryboard-iOS_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BlindsidedStoryboard-iOS_Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
-		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		60E2E35AF3D0D5C7F093716B /* Pods-BlindsidedStoryboard_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlindsidedStoryboard_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlindsidedStoryboard_Tests/Pods-BlindsidedStoryboard_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6EBC1887D5F27AE511F0D7DC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		720A6DCD1740E002ABDCF8B8 /* libPods-BlindsidedStoryboard-tvOS_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BlindsidedStoryboard-tvOS_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73F5B8E55F08F2A5234A2DC5 /* libPods-BlindsidedStoryboard_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BlindsidedStoryboard_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		80E7DCD333C03A3E80C9B006 /* Pods-BlindsidedStoryboard_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlindsidedStoryboard_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlindsidedStoryboard_Example/Pods-BlindsidedStoryboard_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9EB37B68692D9B26442BE26F /* Pods-BlindsidedStoryboard_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlindsidedStoryboard_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlindsidedStoryboard_Example/Pods-BlindsidedStoryboard_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		74FA6B61347BA2D8CE134CF4 /* Pods-BlindsidedStoryboard-tvOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlindsidedStoryboard-tvOS_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlindsidedStoryboard-tvOS_Example/Pods-BlindsidedStoryboard-tvOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		AB40B58A2937BC2AE55832D3 /* BlindsidedStoryboard.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BlindsidedStoryboard.podspec; path = ../BlindsidedStoryboard.podspec; sourceTree = "<group>"; };
 		CDBA813235D49ED5E35099B8 /* libPods-BlindsidedStoryboard_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BlindsidedStoryboard_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E1593E414B2081F283C8F319 /* Pods-BlindsidedStoryboard_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlindsidedStoryboard_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlindsidedStoryboard_Tests/Pods-BlindsidedStoryboard_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EA9DFD8479796986C31D0F79 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F159CC97463B03AD8722DFC6 /* Pods-BlindsidedStoryboard-tvOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlindsidedStoryboard-tvOS_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlindsidedStoryboard-tvOS_Example/Pods-BlindsidedStoryboard-tvOS_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		34B7B2771BFAB5180043B1C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				986D4153197BDB182476A521 /* libPods-BlindsidedStoryboard-tvOS_Example.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34B7B28F1BFAB5190043B1C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FCAC31DD28A7C3A50A3572C /* libPods-BlindsidedStoryboard-tvOS_Tests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		34B9859D1B1A4D4500DE719D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -139,6 +179,7 @@
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
 				C46674D95CB4529C54C97A8F /* libPods-BlindsidedStoryboard_Example.a in Frameworks */,
+				1F3656709E581CACA8A730F4 /* libPods-BlindsidedStoryboard-iOS_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,6 +191,7 @@
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
 				ED98A1F04F5C41A728090184 /* libPods-BlindsidedStoryboard_Tests.a in Frameworks */,
+				C2A68BC791E36E62C0D7463C /* libPods-BlindsidedStoryboard-iOS_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,10 +239,12 @@
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58A195388D20070C39A /* BlindsidedStoryboard_Example.app */,
-				6003F5AE195388D20070C39A /* BlindsidedStoryboard_Tests.xctest */,
+				6003F58A195388D20070C39A /* BlindsidedStoryboard-iOS_Example.app */,
+				6003F5AE195388D20070C39A /* BlindsidedStoryboard-iOS_Tests.xctest */,
 				34B985A11B1A4D4500DE719D /* BlindsidedStoryboard.framework */,
 				34C9F2611BF05979001CC70B /* BlindsidedStoryboard.framework */,
+				34B7B27A1BFAB5180043B1C3 /* BlindsidedStoryboard-tvOS_Example.app */,
+				34B7B2921BFAB5190043B1C3 /* BlindsidedStoryboard-tvOS_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -216,6 +260,10 @@
 				6003F5AF195388D20070C39A /* XCTest.framework */,
 				CDBA813235D49ED5E35099B8 /* libPods-BlindsidedStoryboard_Example.a */,
 				73F5B8E55F08F2A5234A2DC5 /* libPods-BlindsidedStoryboard_Tests.a */,
+				5AACF21A65AA2F210C7DD08F /* libPods-BlindsidedStoryboard-iOS_Example.a */,
+				4813244575D9351E07652425 /* libPods-BlindsidedStoryboard-iOS_Tests.a */,
+				1826B60A0EE3DF905E380AE6 /* libPods-BlindsidedStoryboard-tvOS_Example.a */,
+				720A6DCD1740E002ABDCF8B8 /* libPods-BlindsidedStoryboard-tvOS_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -229,10 +277,10 @@
 				34B9855B1B1A28E700DE719D /* EmbeddedViewController.m */,
 				34B9855C1B1A28E700DE719D /* FirstViewController.h */,
 				34B9855D1B1A28E700DE719D /* FirstViewController.m */,
-				34B9855E1B1A28E700DE719D /* Main.storyboard */,
 				34B9855F1B1A28E700DE719D /* SecondViewController.h */,
 				34B985601B1A28E700DE719D /* SecondViewController.m */,
-				6003F5A8195388D20070C39A /* Images.xcassets */,
+				34B9855E1B1A28E700DE719D /* Main.storyboard */,
+				34B7B2AF1BFAC4280043B1C3 /* Main.storyboard */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
 			name = "Example for BlindsidedStoryboard";
@@ -243,9 +291,7 @@
 			isa = PBXGroup;
 			children = (
 				6003F595195388D20070C39A /* BlindsidedStoryboard-Info.plist */,
-				6003F596195388D20070C39A /* InfoPlist.strings */,
 				6003F599195388D20070C39A /* main.m */,
-				6003F59B195388D20070C39A /* BlindsidedStoryboard-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -255,10 +301,10 @@
 			children = (
 				34B985661B1A2AC700DE719D /* AppDelegateSpec.mm */,
 				34C6B4681B828D580042EB8C /* BSStoryboardProviderSpec.mm */,
+				3411ED221B867B9800F8747B /* BSStoryboardKeySpec.mm */,
 				34C6B46A1B828D710042EB8C /* TestModule.h */,
 				34C6B46B1B828D710042EB8C /* TestModule.m */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
-				3411ED221B867B9800F8747B /* BSStoryboardKeySpec.mm */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -267,8 +313,6 @@
 			isa = PBXGroup;
 			children = (
 				6003F5B7195388D20070C39A /* Tests-Info.plist */,
-				6003F5B8195388D20070C39A /* InfoPlist.strings */,
-				606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -286,10 +330,14 @@
 		F65603AB60181AC421A7E7B0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9EB37B68692D9B26442BE26F /* Pods-BlindsidedStoryboard_Example.debug.xcconfig */,
-				80E7DCD333C03A3E80C9B006 /* Pods-BlindsidedStoryboard_Example.release.xcconfig */,
-				60E2E35AF3D0D5C7F093716B /* Pods-BlindsidedStoryboard_Tests.debug.xcconfig */,
-				E1593E414B2081F283C8F319 /* Pods-BlindsidedStoryboard_Tests.release.xcconfig */,
+				34B7B29F1BFAC18C0043B1C3 /* Pods-BlindsidedStoryboard-iOS_Example.debug.xcconfig */,
+				34B7B2A01BFAC18C0043B1C3 /* Pods-BlindsidedStoryboard-iOS_Example.release.xcconfig */,
+				34B7B2A11BFAC19F0043B1C3 /* Pods-BlindsidedStoryboard-iOS_Tests.debug.xcconfig */,
+				34B7B2A21BFAC19F0043B1C3 /* Pods-BlindsidedStoryboard-iOS_Tests.release.xcconfig */,
+				74FA6B61347BA2D8CE134CF4 /* Pods-BlindsidedStoryboard-tvOS_Example.debug.xcconfig */,
+				F159CC97463B03AD8722DFC6 /* Pods-BlindsidedStoryboard-tvOS_Example.release.xcconfig */,
+				0A0F9C34433033A3D07BCD7A /* Pods-BlindsidedStoryboard-tvOS_Tests.debug.xcconfig */,
+				2976D44711AAD7A99398558B /* Pods-BlindsidedStoryboard-tvOS_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -324,6 +372,47 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		34B7B2791BFAB5180043B1C3 /* BlindsidedStoryboard-tvOS_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34B7B2991BFAB5190043B1C3 /* Build configuration list for PBXNativeTarget "BlindsidedStoryboard-tvOS_Example" */;
+			buildPhases = (
+				8057BBB4774432F4C6061A4C /* Check Pods Manifest.lock */,
+				34B7B2761BFAB5180043B1C3 /* Sources */,
+				34B7B2771BFAB5180043B1C3 /* Frameworks */,
+				34B7B2781BFAB5180043B1C3 /* Resources */,
+				F07C91CBE04DFC0E4F10FE4B /* Embed Pods Frameworks */,
+				5B674635101AC1D7DD167304 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BlindsidedStoryboard-tvOS_Example";
+			productName = "BlindsidedStoryboard-tvOS_Example";
+			productReference = 34B7B27A1BFAB5180043B1C3 /* BlindsidedStoryboard-tvOS_Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34B7B2911BFAB5190043B1C3 /* BlindsidedStoryboard-tvOS_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34B7B29C1BFAB5190043B1C3 /* Build configuration list for PBXNativeTarget "BlindsidedStoryboard-tvOS_Tests" */;
+			buildPhases = (
+				D89540A1F26E4BB49568E62E /* Check Pods Manifest.lock */,
+				34B7B28E1BFAB5190043B1C3 /* Sources */,
+				34B7B28F1BFAB5190043B1C3 /* Frameworks */,
+				34B7B2901BFAB5190043B1C3 /* Resources */,
+				7159080F4B432921389FC636 /* Embed Pods Frameworks */,
+				C0AAE8A8C81DAC17B73236D7 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34B7B2941BFAB5190043B1C3 /* PBXTargetDependency */,
+			);
+			name = "BlindsidedStoryboard-tvOS_Tests";
+			productName = "BlindsidedStoryboard-tvOS_ExampleTests";
+			productReference = 34B7B2921BFAB5190043B1C3 /* BlindsidedStoryboard-tvOS_Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		34B985A01B1A4D4500DE719D /* BlindsidedStoryboard-iOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 34B985B81B1A4D4500DE719D /* Build configuration list for PBXNativeTarget "BlindsidedStoryboard-iOS" */;
@@ -358,9 +447,9 @@
 			productReference = 34C9F2611BF05979001CC70B /* BlindsidedStoryboard.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		6003F589195388D20070C39A /* BlindsidedStoryboard_Example */ = {
+		6003F589195388D20070C39A /* BlindsidedStoryboard-iOS_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "BlindsidedStoryboard_Example" */;
+			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "BlindsidedStoryboard-iOS_Example" */;
 			buildPhases = (
 				2E31B1F2D61D6DD916A6C055 /* Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
@@ -373,14 +462,14 @@
 			);
 			dependencies = (
 			);
-			name = BlindsidedStoryboard_Example;
+			name = "BlindsidedStoryboard-iOS_Example";
 			productName = BlindsidedStoryboard;
-			productReference = 6003F58A195388D20070C39A /* BlindsidedStoryboard_Example.app */;
+			productReference = 6003F58A195388D20070C39A /* BlindsidedStoryboard-iOS_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6003F5AD195388D20070C39A /* BlindsidedStoryboard_Tests */ = {
+		6003F5AD195388D20070C39A /* BlindsidedStoryboard-iOS_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "BlindsidedStoryboard_Tests" */;
+			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "BlindsidedStoryboard-iOS_Tests" */;
 			buildPhases = (
 				B96E61691883F89D0ECB12BF /* Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
@@ -394,9 +483,9 @@
 			dependencies = (
 				6003F5B4195388D20070C39A /* PBXTargetDependency */,
 			);
-			name = BlindsidedStoryboard_Tests;
+			name = "BlindsidedStoryboard-iOS_Tests";
 			productName = BlindsidedStoryboardTests;
-			productReference = 6003F5AE195388D20070C39A /* BlindsidedStoryboard_Tests.xctest */;
+			productReference = 6003F5AE195388D20070C39A /* BlindsidedStoryboard-iOS_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -409,6 +498,13 @@
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Brian Croom";
 				TargetAttributes = {
+					34B7B2791BFAB5180043B1C3 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					34B7B2911BFAB5190043B1C3 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 34B7B2791BFAB5180043B1C3;
+					};
 					34B985A01B1A4D4500DE719D = {
 						CreatedOnToolsVersion = 6.3.1;
 					};
@@ -433,22 +529,37 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6003F589195388D20070C39A /* BlindsidedStoryboard_Example */,
-				6003F5AD195388D20070C39A /* BlindsidedStoryboard_Tests */,
 				34B985A01B1A4D4500DE719D /* BlindsidedStoryboard-iOS */,
 				34C9F2601BF05979001CC70B /* BlindsidedStoryboard-tvOS */,
+				6003F589195388D20070C39A /* BlindsidedStoryboard-iOS_Example */,
+				6003F5AD195388D20070C39A /* BlindsidedStoryboard-iOS_Tests */,
+				34B7B2791BFAB5180043B1C3 /* BlindsidedStoryboard-tvOS_Example */,
+				34B7B2911BFAB5190043B1C3 /* BlindsidedStoryboard-tvOS_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		34B7B2781BFAB5180043B1C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34B7B2B01BFAC4280043B1C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34B7B2901BFAB5190043B1C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F588195388D20070C39A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				34B985641B1A28E700DE719D /* Main.storyboard in Resources */,
-				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
-				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,7 +567,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,7 +585,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlindsidedStoryboard_Tests/Pods-BlindsidedStoryboard_Tests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlindsidedStoryboard-iOS_Tests/Pods-BlindsidedStoryboard-iOS_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		2E31B1F2D61D6DD916A6C055 /* Check Pods Manifest.lock */ = {
@@ -493,6 +603,21 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		5B674635101AC1D7DD167304 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlindsidedStoryboard-tvOS_Example/Pods-BlindsidedStoryboard-tvOS_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		6AC9CCD39408902FBB25CD23 /* Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -505,7 +630,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlindsidedStoryboard_Tests/Pods-BlindsidedStoryboard_Tests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlindsidedStoryboard-iOS_Tests/Pods-BlindsidedStoryboard-iOS_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7159080F4B432921389FC636 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlindsidedStoryboard-tvOS_Tests/Pods-BlindsidedStoryboard-tvOS_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8057BBB4774432F4C6061A4C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		B96E61691883F89D0ECB12BF /* Check Pods Manifest.lock */ = {
@@ -535,7 +690,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlindsidedStoryboard_Example/Pods-BlindsidedStoryboard_Example-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlindsidedStoryboard-iOS_Example/Pods-BlindsidedStoryboard-iOS_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0AAE8A8C81DAC17B73236D7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlindsidedStoryboard-tvOS_Tests/Pods-BlindsidedStoryboard-tvOS_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C48FADE8FC6148787F6321AE /* Copy Pods Resources */ = {
@@ -550,12 +720,65 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlindsidedStoryboard_Example/Pods-BlindsidedStoryboard_Example-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlindsidedStoryboard-iOS_Example/Pods-BlindsidedStoryboard-iOS_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D89540A1F26E4BB49568E62E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F07C91CBE04DFC0E4F10FE4B /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlindsidedStoryboard-tvOS_Example/Pods-BlindsidedStoryboard-tvOS_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		34B7B2761BFAB5180043B1C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34B7B2AB1BFAC2840043B1C3 /* main.m in Sources */,
+				34B7B2AA1BFAC27F0043B1C3 /* SecondViewController.m in Sources */,
+				34B7B2A81BFAC27F0043B1C3 /* EmbeddedViewController.m in Sources */,
+				34B7B2A91BFAC27F0043B1C3 /* FirstViewController.m in Sources */,
+				34B7B2A71BFAC27F0043B1C3 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34B7B28E1BFAB5190043B1C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34B7B2A31BFAC2170043B1C3 /* AppDelegateSpec.mm in Sources */,
+				34B7B2A61BFAC2170043B1C3 /* TestModule.m in Sources */,
+				34B7B2A41BFAC2170043B1C3 /* BSStoryboardProviderSpec.mm in Sources */,
+				34B7B2A51BFAC2170043B1C3 /* BSStoryboardKeySpec.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		34B9859C1B1A4D4500DE719D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -582,7 +805,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34B985651B1A28E700DE719D /* SecondViewController.m in Sources */,
+				34B7B2AC1BFAC3760043B1C3 /* SecondViewController.m in Sources */,
 				34B985611B1A28E700DE719D /* AppDelegate.m in Sources */,
 				34B985621B1A28E700DE719D /* EmbeddedViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
@@ -604,33 +827,87 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		34B7B2941BFAB5190043B1C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34B7B2791BFAB5180043B1C3 /* BlindsidedStoryboard-tvOS_Example */;
+			targetProxy = 34B7B2931BFAB5190043B1C3 /* PBXContainerItemProxy */;
+		};
 		6003F5B4195388D20070C39A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6003F589195388D20070C39A /* BlindsidedStoryboard_Example */;
+			target = 6003F589195388D20070C39A /* BlindsidedStoryboard-iOS_Example */;
 			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		6003F596195388D20070C39A /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6003F597195388D20070C39A /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		6003F5B8195388D20070C39A /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6003F5B9195388D20070C39A /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
+		34B7B29A1BFAB5190043B1C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74FA6B61347BA2D8CE134CF4 /* Pods-BlindsidedStoryboard-tvOS_Example.debug.xcconfig */;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "BlindsidedStoryboard/BlindsidedStoryboard-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.briancroom.BlindsidedStoryboard-tvOS-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		34B7B29B1BFAB5190043B1C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F159CC97463B03AD8722DFC6 /* Pods-BlindsidedStoryboard-tvOS_Example.release.xcconfig */;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "BlindsidedStoryboard/BlindsidedStoryboard-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.briancroom.BlindsidedStoryboard-tvOS-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		34B7B29D1BFAB5190043B1C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A0F9C34433033A3D07BCD7A /* Pods-BlindsidedStoryboard-tvOS_Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.briancroom.BlindsidedStoryboard-tvOS-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlindsidedStoryboard-tvOS_Example.app/BlindsidedStoryboard-tvOS_Example";
+			};
+			name = Debug;
+		};
+		34B7B29E1BFAB5190043B1C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2976D44711AAD7A99398558B /* Pods-BlindsidedStoryboard-tvOS_Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.briancroom.BlindsidedStoryboard-tvOS-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlindsidedStoryboard-tvOS_Example.app/BlindsidedStoryboard-tvOS_Example";
+			};
+			name = Release;
+		};
 		34B985B41B1A4D4500DE719D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -782,7 +1059,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -815,7 +1092,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -824,81 +1101,77 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9EB37B68692D9B26442BE26F /* Pods-BlindsidedStoryboard_Example.debug.xcconfig */;
+			baseConfigurationReference = 34B7B29F1BFAC18C0043B1C3 /* Pods-BlindsidedStoryboard-iOS_Example.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BlindsidedStoryboard/BlindsidedStoryboard-Prefix.pch";
 				INFOPLIST_FILE = "BlindsidedStoryboard/BlindsidedStoryboard-Info.plist";
-				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.briancroom.BlindsidedStoryboard-iOS-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 80E7DCD333C03A3E80C9B006 /* Pods-BlindsidedStoryboard_Example.release.xcconfig */;
+			baseConfigurationReference = 34B7B2A01BFAC18C0043B1C3 /* Pods-BlindsidedStoryboard-iOS_Example.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BlindsidedStoryboard/BlindsidedStoryboard-Prefix.pch";
 				INFOPLIST_FILE = "BlindsidedStoryboard/BlindsidedStoryboard-Info.plist";
-				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.briancroom.BlindsidedStoryboard-iOS-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 60E2E35AF3D0D5C7F093716B /* Pods-BlindsidedStoryboard_Tests.debug.xcconfig */;
+			baseConfigurationReference = 34B7B2A11BFAC19F0043B1C3 /* Pods-BlindsidedStoryboard-iOS_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlindsidedStoryboard_Example.app/BlindsidedStoryboard_Example";
-				WRAPPER_EXTENSION = xctest;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlindsidedStoryboard-iOS_Example.app/BlindsidedStoryboard-iOS_Example";
 			};
 			name = Debug;
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1593E414B2081F283C8F319 /* Pods-BlindsidedStoryboard_Tests.release.xcconfig */;
+			baseConfigurationReference = 34B7B2A21BFAC19F0043B1C3 /* Pods-BlindsidedStoryboard-iOS_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlindsidedStoryboard_Example.app/BlindsidedStoryboard_Example";
-				WRAPPER_EXTENSION = xctest;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlindsidedStoryboard-iOS_Example.app/BlindsidedStoryboard-iOS_Example";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		34B7B2991BFAB5190043B1C3 /* Build configuration list for PBXNativeTarget "BlindsidedStoryboard-tvOS_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34B7B29A1BFAB5190043B1C3 /* Debug */,
+				34B7B29B1BFAB5190043B1C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34B7B29C1BFAB5190043B1C3 /* Build configuration list for PBXNativeTarget "BlindsidedStoryboard-tvOS_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34B7B29D1BFAB5190043B1C3 /* Debug */,
+				34B7B29E1BFAB5190043B1C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		34B985B81B1A4D4500DE719D /* Build configuration list for PBXNativeTarget "BlindsidedStoryboard-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -915,6 +1188,7 @@
 				34C9F2681BF05979001CC70B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6003F585195388D10070C39A /* Build configuration list for PBXProject "BlindsidedStoryboard" */ = {
 			isa = XCConfigurationList;
@@ -925,7 +1199,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "BlindsidedStoryboard_Example" */ = {
+		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "BlindsidedStoryboard-iOS_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5C0195388D20070C39A /* Debug */,
@@ -934,7 +1208,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "BlindsidedStoryboard_Tests" */ = {
+		6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "BlindsidedStoryboard-iOS_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5C3195388D20070C39A /* Debug */,

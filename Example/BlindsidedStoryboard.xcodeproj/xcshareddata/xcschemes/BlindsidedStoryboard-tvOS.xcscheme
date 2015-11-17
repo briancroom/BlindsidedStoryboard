@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "34C9F2601BF05979001CC70B"
-               BuildableName = "BlindsidedStoryboard-tvOS.framework"
+               BuildableName = "BlindsidedStoryboard.framework"
                BlueprintName = "BlindsidedStoryboard-tvOS"
                ReferencedContainer = "container:BlindsidedStoryboard.xcodeproj">
             </BuildableReference>
@@ -28,7 +28,26 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "34B7B2911BFAB5190043B1C3"
+               BuildableName = "BlindsidedStoryboard-tvOS_Tests.xctest"
+               BlueprintName = "BlindsidedStoryboard-tvOS_Tests"
+               ReferencedContainer = "container:BlindsidedStoryboard.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "34C9F2601BF05979001CC70B"
+            BuildableName = "BlindsidedStoryboard.framework"
+            BlueprintName = "BlindsidedStoryboard-tvOS"
+            ReferencedContainer = "container:BlindsidedStoryboard.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -46,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "34C9F2601BF05979001CC70B"
-            BuildableName = "BlindsidedStoryboard-tvOS.framework"
+            BuildableName = "BlindsidedStoryboard.framework"
             BlueprintName = "BlindsidedStoryboard-tvOS"
             ReferencedContainer = "container:BlindsidedStoryboard.xcodeproj">
          </BuildableReference>
@@ -64,7 +83,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "34C9F2601BF05979001CC70B"
-            BuildableName = "BlindsidedStoryboard-tvOS.framework"
+            BuildableName = "BlindsidedStoryboard.framework"
             BlueprintName = "BlindsidedStoryboard-tvOS"
             ReferencedContainer = "container:BlindsidedStoryboard.xcodeproj">
          </BuildableReference>

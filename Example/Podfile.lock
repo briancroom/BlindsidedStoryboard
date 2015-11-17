@@ -5,16 +5,31 @@ PODS:
   - Cedar (0.12.0)
 
 DEPENDENCIES:
+  - Blindside (from `https://github.com/jbsf/blindside.git`, branch `master`)
   - BlindsidedStoryboard (from `../`)
-  - Cedar
+  - Cedar (from `https://github.com/pivotal/cedar.git`, branch `master`)
 
 EXTERNAL SOURCES:
+  Blindside:
+    :branch: master
+    :git: https://github.com/jbsf/blindside.git
   BlindsidedStoryboard:
     :path: ../
+  Cedar:
+    :branch: master
+    :git: https://github.com/pivotal/cedar.git
+
+CHECKOUT OPTIONS:
+  Blindside:
+    :commit: 6cac42f491860bbf53c9ccdbaa251b88061fce3d
+    :git: https://github.com/jbsf/blindside.git
+  Cedar:
+    :commit: 162ce0915863787744fb44e51bf60d5d69f8591a
+    :git: https://github.com/pivotal/cedar.git
 
 SPEC CHECKSUMS:
-  Blindside: 70df36cf7acfe5640c4a86eea590ff025adbc105
-  BlindsidedStoryboard: 65676f607e6a19da47994883a58c487c45f6fbfc
-  Cedar: 57e00c655546e4a9dccbfcd95894565872585742
+  Blindside: 83734043234c39fff9f83291769ae1367212e7ba
+  BlindsidedStoryboard: 625ee361cf906abb8d8d1a0f4decfb4c73b6ee97
+  Cedar: ca163d6364991f39a4758fef49be3b95504ed0d0
 
 COCOAPODS: 0.39.0
